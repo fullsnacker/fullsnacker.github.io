@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-rome.ro	TRUE	/	FALSE	1999999999	crumb	BT2KtLOV5iyWOGJmZGE4NmRhYzdkZWQ4MDJmY2QwZmVlMTU0Yzdm
-
