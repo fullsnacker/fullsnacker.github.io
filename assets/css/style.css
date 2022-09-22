@@ -1516,7 +1516,12 @@ body.active { overflow: hidden; }
 
   /* MOVIE CARD */
 
-  .post-list { grid-template-columns: repeat(4, 1fr); }
+  .post-list { 
+    grid-template-columns: repeat(3, 1fr); 
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
 
 
 
