@@ -1,0 +1,22 @@
+.content {
+	@apply text-gray-800;
+}
+.content > h2 {
+	@apply text-3xl font-semibold;
+}
+.content > h3 {
+	@apply text-2xl font-semibold pt-2;
+}
+.content > h4 {
+	@apply text-xl font-semibold pb-2 pt-14;
+}
+.content > h5 {
+	@apply text-lg font-semibold pt-12 pb-1;
+}
+.content > p {
+	@apply text-lg font-normal text-gray-600;
+}
+.content > ul,
+.content > ol {
+	@apply pl-4;
+}
