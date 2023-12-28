@@ -63,6 +63,7 @@ export const getFullContent = async ({ type }: PartialConfig): Promise<FullConte
 			title: data.title,
 			topic: data.topic,
 			type: data.type,
+			url: ''
 		}
 
 		promises.push(fullContent)
