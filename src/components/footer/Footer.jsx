@@ -5,7 +5,7 @@ export const Footer = () => {
 	return (
 		<footer className="footer">
 			<div className="footer__container container">
-				<h1 className="footer__title">Cyphr</h1>
+				<h1 className="footer__title">Fullsnacker</h1>
 				<ul className="footer__list">
 					<li>
 						<a href="#about" className="footer__link">
@@ -25,7 +25,7 @@ export const Footer = () => {
 				</ul>
 				<div className="footer__social">
 					<a
-						href="https://twitter.com/cyphrsylph"
+						href="https://twitter.com/fullsnacker"
 						className="home__social-icon"
 						target="_blank"
 						rel="noreferrer"

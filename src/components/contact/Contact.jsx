@@ -32,7 +32,7 @@ export const Contact = () => {
 							<HiOutlineMail className="contact__card-icon" />
 
 							<h3 className="contact__card-title">Email</h3>
-							<span className="contact__card-data">cyphrsylph@gmail.com</span>
+							<span className="contact__card-data">fullsnacker@gmail.com</span>
 
 							<a
 								href="mailto:cyphersylph@gmail.com"

@@ -11,7 +11,7 @@
 		"lint-fix": "eslint --fix . --ext js,jsx",
 		"format": "prettier --write .",
 		"preview": "vite preview",
-		"deploy":"master -d dist"
+		"deploy":"gh-pages -d dist"
 	},
 	"dependencies": {
 		"@emailjs/browser": "^3.10.0",
