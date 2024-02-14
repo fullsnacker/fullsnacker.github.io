@@ -21,11 +21,11 @@ function App() {
 				<Skills />
 				{/* <Services /> */}
 				<Qualification />
-				<Portfolio />
+				{/* <Portfolio /> */}
 				{/* <Testimonials /> */}
-				{/* <Contact /> */}
+				<Contact />
 			</main>
-			<Footer />
+			{/* <Footer /> */}
 			<ScrollUp />
 		</>
 	);

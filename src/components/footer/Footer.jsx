@@ -25,7 +25,7 @@ export const Footer = () => {
 				</ul>
 				<div className="footer__social">
 					<a
-						href="https://twitter.com/fullsnacker"
+						href="https://github.com/fullsnacker"
 						className="home__social-icon"
 						target="_blank"
 						rel="noreferrer"
@@ -33,7 +33,7 @@ export const Footer = () => {
 						<FiGithub />
 					</a>
 					<a
-						href="https://www.github.com/kmaalig"
+						href="https://www.instagram.com/fullsnacker/"
 						className="home__social-icon"
 						target="_blank"
 						rel="noreferrer"
@@ -41,7 +41,7 @@ export const Footer = () => {
 						<FiInstagram />
 					</a>
 					<a
-						href="https://www.linkedin.com/in/kmaalig/"
+						href="https://www.linkedin.com/in/fullsnacker/"
 						className="home__social-icon"
 						target="_blank"
 						rel="noreferrer"

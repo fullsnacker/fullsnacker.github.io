@@ -57,7 +57,7 @@ export const Data = () => {
 			</h1>
 			<h3 className="home__subtitle">FullStack Developer</h3>
 			<p className="home__description">
-				I&apos;m creative Full-Stack developer with over 6 years of experience
+				I&apos;m creative Full-Stack developer with over 5 years of experience
 				using the MERN stack. based in Buenos Aires, and I&apos;m very
 				passionate and dedicated to my work.
 			</p>

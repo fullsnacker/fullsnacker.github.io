@@ -1,22 +1,9 @@
 import React, { useRef } from 'react';
 import './contact.css';
 import { HiOutlineMail, HiOutlineArrowSmRight } from 'react-icons/hi';
-import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
 	const form = useRef();
-
-	const sendEmail = (e) => {
-		e.preventDefault();
-
-		emailjs.sendForm(
-			'service_s53x8mc',
-			'template_fwq8n7v',
-			form.current,
-			'cXginQ40keRVEt1YV'
-		);
-		e.target.reset();
-	};
 
 	return (
 		<section className="contact section" id="contact">
@@ -35,7 +22,7 @@ export const Contact = () => {
 							<span className="contact__card-data">fullsnacker@gmail.com</span>
 
 							<a
-								href="mailto:cyphersylph@gmail.com"
+								href="mailto:fullsnacker@gmail.com"
 								className="contact__button"
 							>
 								Write Me{' '}
@@ -46,9 +33,14 @@ export const Contact = () => {
 				</div>
 
 				<div className="contact__content">
-					<h3 className="contact__title">What&apos;s the project?</h3>
+					<h3 className="contact__title">What&apos;s on your mind?</h3>
 
-					<form ref={form} onSubmit={sendEmail} className="contact__form">
+					<form
+						ref={form}
+						action="https://formspree.io/f/xvolloon"
+						className="contact__form"
+						method="POST"
+					>
 						<div className="contact__form-div">
 							<label className="contact__form-tag">Name</label>
 							<input
@@ -56,6 +48,7 @@ export const Contact = () => {
 								name="name"
 								className="contact__form-input"
 								placeholder="Type your name"
+								required="true"
 							/>
 						</div>
 
@@ -66,21 +59,27 @@ export const Contact = () => {
 								name="email"
 								className="contact__form-input"
 								placeholder="Type your email"
+								required="true"
 							/>
 						</div>
 
 						<div className="contact__form-div contact__form-area">
-							<label className="contact__form-tag">Project</label>
+							<label className="contact__form-tag">About</label>
 							<textarea
-								name="project"
+								name="about"
 								cols="30"
 								rows="10"
 								className="contact__form-input"
-								placeholder="Provide some project details..."
+								placeholder="Message"
+								required="true"
 							></textarea>
 						</div>
 
-						<button href="#contact" className="button button--flex">
+						<button
+							href="#contact"
+							className="button button--flex"
+							type="submit"
+						>
 							Send Message
 							<svg
 								className="button__icon"

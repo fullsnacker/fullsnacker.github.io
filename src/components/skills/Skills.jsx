@@ -1,6 +1,7 @@
 import './skills.css';
 import { Frontend } from './Frontend';
 import { Backend } from './Backend';
+import { Languages } from './Languages';
 
 export const Skills = () => {
 	return (
@@ -10,6 +11,7 @@ export const Skills = () => {
 			<div className="skills__container container grid">
 				<Frontend />
 				<Backend />
+				<Languages />
 			</div>
 		</section>
 	);

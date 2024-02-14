@@ -9,22 +9,22 @@ export const Backend = () => {
 					<div className="skills__data">
 						<HiCheckBadge />
 						<div>
-							<h3 className="skills__name">Java</h3>
-							<span className="skills__level">Basic</span>
+							<h3 className="skills__name">Node.js</h3>
+							<span className="skills__level">Advanced</span>
 						</div>
 					</div>
 					<div className="skills__data">
 						<HiCheckBadge />
 						<div>
-							<h3 className="skills__name">SpringBoot</h3>
-							<span className="skills__level">Basic</span>
+							<h3 className="skills__name">MongoDB</h3>
+							<span className="skills__level">Intermediate</span>
 						</div>
 					</div>
 					<div className="skills__data">
 						<HiCheckBadge />
 						<div>
 							<h3 className="skills__name">MySQL</h3>
-							<span className="skills__level">Basic</span>
+							<span className="skills__level">Intermediate</span>
 						</div>
 					</div>
 				</div>
@@ -32,22 +32,22 @@ export const Backend = () => {
 					<div className="skills__data">
 						<HiCheckBadge />
 						<div>
-							<h3 className="skills__name">npm</h3>
-							<span className="skills__level">Basic</span>
+							<h3 className="skills__name">Express.js</h3>
+							<span className="skills__level">Intermediate</span>
 						</div>
 					</div>
 					<div className="skills__data">
 						<HiCheckBadge />
 						<div>
-							<h3 className="skills__name">Node.js</h3>
-							<span className="skills__level">Basic</span>
+							<h3 className="skills__name">Linux</h3>
+							<span className="skills__level">Advanced</span>
 						</div>
 					</div>
 					<div className="skills__data">
 						<HiCheckBadge />
 						<div>
 							<h3 className="skills__name">Git</h3>
-							<span className="skills__level">Intermediate</span>
+							<span className="skills__level">Advanced</span>
 						</div>
 					</div>
 				</div>

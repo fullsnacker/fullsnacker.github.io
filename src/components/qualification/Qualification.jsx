@@ -54,13 +54,11 @@ export const Qualification = () => {
 					>
 						<div className="qualification__data">
 							<div>
-								<h3 className="qualification__title">Design</h3>
-								<span className="qualification__subtitle">
-									The Art Institute
-								</span>
+								<h3 className="qualification__title">System Analyst</h3>
+								<span className="qualification__subtitle">ORT</span>
 								<div className="qualification__calendar">
 									<HiOutlineCalendar className="qualification__calendar-icon" />
-									2016-2018
+									2022
 								</div>
 							</div>
 							<div>
@@ -75,23 +73,23 @@ export const Qualification = () => {
 								<span className="qualification__line"></span>
 							</div>
 							<div>
-								<h3 className="qualification__title">Web Development</h3>
-								<span className="qualification__subtitle">
-									Full Sail University
-								</span>
+								<h3 className="qualification__title">
+									Game Developer Master + Unity Certification
+								</h3>
+								<span className="qualification__subtitle">UTN</span>
 								<div className="qualification__calendar">
 									<HiOutlineCalendar className="qualification__calendar-icon" />
-									2018-2021
+									2016
 								</div>
 							</div>
 						</div>
 						<div className="qualification__data">
 							<div>
-								<h3 className="qualification__title">UI/UX Design</h3>
-								<span className="qualification__subtitle">UX Academy</span>
+								<h3 className="qualification__title">Electronic Technician</h3>
+								<span className="qualification__subtitle">ORT</span>
 								<div className="qualification__calendar">
 									<HiOutlineCalendar className="qualification__calendar-icon" />
-									2021-2022
+									2004
 								</div>
 							</div>
 							<div>
@@ -109,11 +107,11 @@ export const Qualification = () => {
 					>
 						<div className="qualification__data">
 							<div>
-								<h3 className="qualification__title">Tech Support</h3>
-								<span className="qualification__subtitle">PC Outlet</span>
+								<h3 className="qualification__title">Full-Stack Developer</h3>
+								<span className="qualification__subtitle">ArtdeCode</span>
 								<div className="qualification__calendar">
 									<HiOutlineCalendar className="qualification__calendar-icon" />
-									2012-2015
+									2020-Present
 								</div>
 							</div>
 							<div>
@@ -128,43 +126,26 @@ export const Qualification = () => {
 								<span className="qualification__line"></span>
 							</div>
 							<div>
-								<h3 className="qualification__title">Junior Developer</h3>
-								<span className="qualification__subtitle">Discord</span>
+								<h3 className="qualification__title">Full-Stack Developer</h3>
+								<span className="qualification__subtitle">Roemmers</span>
 								<div className="qualification__calendar">
 									<HiOutlineCalendar className="qualification__calendar-icon" />
-									2015-2016
+									2019-2020
 								</div>
 							</div>
 						</div>
 						<div className="qualification__data">
 							<div>
-								<h3 className="qualification__title">UX Designer</h3>
-								<span className="qualification__subtitle">Apple Inc</span>
+								<h3 className="qualification__title">Front-End Developer</h3>
+								<span className="qualification__subtitle">Freelance</span>
 								<div className="qualification__calendar">
 									<HiOutlineCalendar className="qualification__calendar-icon" />
-									2016-2022
+									2013-2019
 								</div>
 							</div>
 							<div>
 								<span className="qualification__rounder"></span>
 								<span className="qualification__line"></span>
-							</div>
-						</div>
-						<div className="qualification__data">
-							<div></div>
-							<div>
-								<span className="qualification__rounder"></span>
-								<span className="qualification__line"></span>
-							</div>
-							<div>
-								<h3 className="qualification__title">Senior Developer</h3>
-								<span className="qualification__subtitle">
-									Freelance - Remote
-								</span>
-								<div className="qualification__calendar">
-									<HiOutlineCalendar className="qualification__calendar-icon" />
-									2019-Present
-								</div>
 							</div>
 						</div>
 					</div>
