@@ -3,21 +3,21 @@ import { HiCheckBadge } from 'react-icons/hi2';
 export const Languages = () => {
 	return (
 		<div className="skills__content">
-			<h3 className="skills__title">Languages</h3>
+			<h3 className="skills__title">Idiomas</h3>
 			<div className="skills__box">
 				<div className="skills__group">
 					<div className="skills__data">
 						<HiCheckBadge />
 						<div>
-							<h3 className="skills__name">Spanish</h3>
-							<span className="skills__level">Native</span>
+							<h3 className="skills__name">Español</h3>
+							<span className="skills__level">Nativo</span>
 						</div>
 					</div>
 					<div className="skills__data">
 						<HiCheckBadge />
 						<div>
-							<h3 className="skills__name">Japanese</h3>
-							<span className="skills__level">Intermediate</span>
+							<h3 className="skills__name">Japonés</h3>
+							<span className="skills__level">Intermedio</span>
 						</div>
 					</div>
 				</div>
@@ -25,8 +25,8 @@ export const Languages = () => {
 					<div className="skills__data">
 						<HiCheckBadge />
 						<div>
-							<h3 className="skills__name">English</h3>
-							<span className="skills__level">Advanced</span>
+							<h3 className="skills__name">Inglés</h3>
+							<span className="skills__level">Avanzado</span>
 						</div>
 					</div>
 				</div>

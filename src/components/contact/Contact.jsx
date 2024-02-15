@@ -7,12 +7,12 @@ export const Contact = () => {
 
 	return (
 		<section className="contact section" id="contact">
-			<h2 className="section__title">Let&apos;s Connect</h2>
-			<span className="section__subtitle">Contact Me</span>
+			<h2 className="section__title">Hablemos</h2>
+			<span className="section__subtitle">Contáctame</span>
 
 			<div className="contact__container container grid">
 				<div className="contact__content">
-					<h3 className="contact__title">Talk to me</h3>
+					{/* <h3 className="contact__title">Hablemos</h3> */}
 
 					<div className="contact__info">
 						<div className="contact__card">
@@ -25,7 +25,7 @@ export const Contact = () => {
 								href="mailto:fullsnacker@gmail.com"
 								className="contact__button"
 							>
-								Write Me{' '}
+								Escríbeme{' '}
 								<HiOutlineArrowSmRight className="contact__button-icon" />
 							</a>
 						</div>
@@ -33,7 +33,7 @@ export const Contact = () => {
 				</div>
 
 				<div className="contact__content">
-					<h3 className="contact__title">What&apos;s on your mind?</h3>
+					<h3 className="contact__title">¿Qué tienes en mente?</h3>
 
 					<form
 						ref={form}
@@ -42,12 +42,12 @@ export const Contact = () => {
 						method="POST"
 					>
 						<div className="contact__form-div">
-							<label className="contact__form-tag">Name</label>
+							<label className="contact__form-tag">Nombre</label>
 							<input
 								type="text"
 								name="name"
 								className="contact__form-input"
-								placeholder="Type your name"
+								placeholder="Escribe tu nombre"
 								required={true}
 							/>
 						</div>
@@ -58,19 +58,19 @@ export const Contact = () => {
 								type="email"
 								name="email"
 								className="contact__form-input"
-								placeholder="Type your email"
+								placeholder="Escribe tu email"
 								required={true}
 							/>
 						</div>
 
 						<div className="contact__form-div contact__form-area">
-							<label className="contact__form-tag">About</label>
+							<label className="contact__form-tag">Mensaje</label>
 							<textarea
 								name="about"
 								cols="30"
 								rows="10"
 								className="contact__form-input"
-								placeholder="Message"
+								placeholder="Escribe tu Mensaje"
 								required={true}
 							></textarea>
 						</div>
@@ -80,7 +80,7 @@ export const Contact = () => {
 							className="button button--flex"
 							type="submit"
 						>
-							Send Message
+							Enviar Mensaje
 							<svg
 								className="button__icon"
 								xmlns="http://www.w3.org/2000/svg"

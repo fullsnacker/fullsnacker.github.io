@@ -15,8 +15,8 @@ export const Qualification = () => {
 
 	return (
 		<section className="qualification section">
-			<h2 className="section__title">Qualification</h2>
-			<span className="section__subtitle">My Journey</span>
+			<h2 className="section__title">Experiencia</h2>
+			<span className="section__subtitle">Mi Viaje</span>
 
 			<div className="qualification__container container">
 				<div className="qualification__tabs">
@@ -29,7 +29,7 @@ export const Qualification = () => {
 						onClick={() => toggleTab(1)}
 					>
 						<HiOutlineAcademicCap className="qualification__icon" />
-						Education
+						Educación
 					</div>
 					<div
 						className={
@@ -40,7 +40,7 @@ export const Qualification = () => {
 						onClick={() => toggleTab(2)}
 					>
 						<HiOutlineBriefcase className="qualification__icon" />
-						Experience
+						Laboral
 					</div>
 				</div>
 
@@ -54,7 +54,7 @@ export const Qualification = () => {
 					>
 						<div className="qualification__data">
 							<div>
-								<h3 className="qualification__title">System Analyst</h3>
+								<h3 className="qualification__title">Analista de Sistemas</h3>
 								<span className="qualification__subtitle">ORT</span>
 								<div className="qualification__calendar">
 									<HiOutlineCalendar className="qualification__calendar-icon" />
@@ -74,9 +74,9 @@ export const Qualification = () => {
 							</div>
 							<div>
 								<h3 className="qualification__title">
-									Game Developer Master + Unity Certification
+									Diplomatura en Desarrollo de Videojuegos + Unity Certification
 								</h3>
-								<span className="qualification__subtitle">UTN</span>
+								<span className="qualification__subtitle">UTN + Unity</span>
 								<div className="qualification__calendar">
 									<HiOutlineCalendar className="qualification__calendar-icon" />
 									2016
@@ -85,7 +85,7 @@ export const Qualification = () => {
 						</div>
 						<div className="qualification__data">
 							<div>
-								<h3 className="qualification__title">Electronic Technician</h3>
+								<h3 className="qualification__title">Técnico Electrónico</h3>
 								<span className="qualification__subtitle">ORT</span>
 								<div className="qualification__calendar">
 									<HiOutlineCalendar className="qualification__calendar-icon" />
@@ -107,11 +107,13 @@ export const Qualification = () => {
 					>
 						<div className="qualification__data">
 							<div>
-								<h3 className="qualification__title">Full-Stack Developer</h3>
+								<h3 className="qualification__title">
+									Desarrollador FullStack
+								</h3>
 								<span className="qualification__subtitle">ArtdeCode</span>
 								<div className="qualification__calendar">
 									<HiOutlineCalendar className="qualification__calendar-icon" />
-									2020-Present
+									2020-Presente
 								</div>
 							</div>
 							<div>
@@ -126,7 +128,9 @@ export const Qualification = () => {
 								<span className="qualification__line"></span>
 							</div>
 							<div>
-								<h3 className="qualification__title">Full-Stack Developer</h3>
+								<h3 className="qualification__title">
+									Desarrollador FullStack
+								</h3>
 								<span className="qualification__subtitle">Roemmers</span>
 								<div className="qualification__calendar">
 									<HiOutlineCalendar className="qualification__calendar-icon" />
@@ -136,7 +140,7 @@ export const Qualification = () => {
 						</div>
 						<div className="qualification__data">
 							<div>
-								<h3 className="qualification__title">Front-End Developer</h3>
+								<h3 className="qualification__title">Desarrollador FrontEnd</h3>
 								<span className="qualification__subtitle">Freelance</span>
 								<div className="qualification__calendar">
 									<HiOutlineCalendar className="qualification__calendar-icon" />

@@ -55,14 +55,14 @@ export const Data = () => {
 					></path>
 				</svg>
 			</h1>
-			<h3 className="home__subtitle">FullStack Developer</h3>
+			<h3 className="home__subtitle">Desarrollador FullStack</h3>
 			<p className="home__description">
-				I&apos;m creative Full-Stack developer with over 5 years of experience
-				using the MERN stack. based in Buenos Aires, and I&apos;m very
-				passionate and dedicated to my work.
+				Soy desarrollador creativo Full-Stack con más de 5 años de experiencia.
+				usando la pila MERN. Vivo en Buenos Aires y soy muy apasionado y
+				dedicado a mi trabajo.
 			</p>
 			<a href="#contact" className="button button--flex">
-				Say Hello
+				Hablemos
 				<svg
 					className="button__icon"
 					xmlns="http://www.w3.org/2000/svg"
