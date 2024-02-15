@@ -10,8 +10,14 @@ import { ScrollUp } from './components/scrollup/ScrollUp';
 import { Services } from './components/services/Services';
 import { Skills } from './components/skills/Skills';
 import { Testimonials } from './components/testimonials/Testimonials';
-
+import { Chat } from './components/chatbot/Chat';
+import { answers, examples } from './components/chatbot';
 function App() {
+	const CHAT_ANSWERS = answers;
+	const CHAT_EXAMPLES = examples;
+	const INITIAL_MESSAGE =
+		'Hola! Soy Snachat. Hazme consultas acerca de Fullsnacker';
+
 	return (
 		<>
 			<Header />
@@ -24,6 +30,11 @@ function App() {
 				{/* <Portfolio /> */}
 				{/* <Testimonials /> */}
 				<Contact />
+				<Chat
+					answers={CHAT_ANSWERS}
+					examples={CHAT_EXAMPLES}
+					initialMessage={INITIAL_MESSAGE}
+				/>
 			</main>
 			{/* <Footer /> */}
 			<ScrollUp />

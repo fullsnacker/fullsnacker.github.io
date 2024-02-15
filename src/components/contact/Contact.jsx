@@ -48,7 +48,7 @@ export const Contact = () => {
 								name="name"
 								className="contact__form-input"
 								placeholder="Type your name"
-								required="true"
+								required={true}
 							/>
 						</div>
 
@@ -59,7 +59,7 @@ export const Contact = () => {
 								name="email"
 								className="contact__form-input"
 								placeholder="Type your email"
-								required="true"
+								required={true}
 							/>
 						</div>
 
@@ -71,7 +71,7 @@ export const Contact = () => {
 								rows="10"
 								className="contact__form-input"
 								placeholder="Message"
-								required="true"
+								required={true}
 							></textarea>
 						</div>
 

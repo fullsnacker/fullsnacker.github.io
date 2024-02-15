@@ -1,12 +1,12 @@
 .scrollup {
     position: fixed;
-    right: 2.5rem;
+    left: 1rem;
     bottom: -20%;
     background-color: var(--title-color);
     opacity: 0.8;
     padding: 0.3rem 0.5rem;
     border-radius: 0.4rem;
-    z-index: var(--tooltip);
+    z-index: 1000;
     transition: .4s;
 }
 
@@ -27,7 +27,7 @@
 /* BREAK POINTS */
 @media screen and (max-width: 992px) {
    .scrollup {
-    right: 1.5rem;
+    left: 1rem;
     padding: 0.25rem 0.4rem;
    }
 
