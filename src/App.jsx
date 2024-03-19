@@ -36,7 +36,7 @@ function App() {
 					initialMessage={INITIAL_MESSAGE}
 				/>
 			</main>
-			{/* <Footer /> */}
+			<Footer />
 			<ScrollUp />
 		</>
 	);

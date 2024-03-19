@@ -1,6 +1,6 @@
 import './about.css';
 import AboutImg from '../../assets/about.jpg';
-import Resume from '../../assets/resume-juan-manuel-garcia.pdf';
+import Resume from '../../assets/Juan-Manuel-Garcia-cv.pdf';
 import { Info } from './Info';
 
 export const About = () => {

@@ -6,23 +6,23 @@ export const Footer = () => {
 		<footer className="footer">
 			<div className="footer__container container">
 				<h1 className="footer__title">Fullsnacker</h1>
-				<ul className="footer__list">
+				{/* <ul className="footer__list">
 					<li>
 						<a href="#about" className="footer__link">
-							About
+							Sobre mí
 						</a>
 					</li>
 					<li>
 						<a href="#portfolio" className="footer__link">
-							Projects
+							Portfolio
 						</a>
 					</li>
-					{/* <li>
+					<li>
 						<a href="#testimonials" className="footer__link">
 							Testimonials
 						</a>
-					</li> */}
-				</ul>
+					</li>
+				</ul> */}
 				<div className="footer__social">
 					<a
 						href="https://github.com/fullsnacker"
