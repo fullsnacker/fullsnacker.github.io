@@ -13,13 +13,13 @@ export const projectsData = [
 		category: 'Challenge',
 		url: 'https://github.com/fullsnacker/meli-challenge'
 	},
-	{
-		id: 2,
-		image: Project2,
-		title: 'Heroes SPA',
-		category: 'Proyecto',
-		url: 'https://github.com/fullsnacker/heroes-app'
-	},
+	// {
+	// 	id: 2,
+	// 	image: Project2,
+	// 	title: 'Heroes SPA',
+	// 	category: 'Proyecto',
+	// 	url: 'https://github.com/fullsnacker/heroes-app'
+	// },
 	{
 		id: 3,
 		image: Project3,
