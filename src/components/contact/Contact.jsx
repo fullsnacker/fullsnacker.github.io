@@ -1,6 +1,10 @@
 import React, { useRef } from 'react';
 import './contact.css';
-import { HiOutlineMail, HiOutlineArrowSmRight } from 'react-icons/hi';
+import {
+	HiOutlineMail,
+	HiOutlineArrowSmRight,
+	HiOutlineCalendar
+} from 'react-icons/hi';
 
 export const Contact = () => {
 	const form = useRef();
@@ -25,7 +29,25 @@ export const Contact = () => {
 								href="mailto:fullsnacker@gmail.com"
 								className="contact__button"
 							>
-								Escríbeme{' '}
+								Escríbeme
+								<HiOutlineArrowSmRight className="contact__button-icon" />
+							</a>
+						</div>
+					</div>
+					<div className="contact__info">
+						<div className="contact__card">
+							<HiOutlineCalendar className="contact__card-icon" />
+
+							<h3 className="contact__card-title">Agenda llamada</h3>
+							{/* <span className="contact__card-data">fullsnacker@gmail.com</span> */}
+
+							<a
+								href="https://calendly.com/fullsnacker/30min"
+								className="contact__button"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Ver disponibilidad
 								<HiOutlineArrowSmRight className="contact__button-icon" />
 							</a>
 						</div>
