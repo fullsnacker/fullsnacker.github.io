@@ -1,7 +1,6 @@
 import { HiOutlineArrowSmRight } from 'react-icons/hi';
 
 export const ProjectItems = ({ item }) => {
-	console.log(item);
 	return (
 		<div className="project__card" key={item.id}>
 			<img className="project__img" src={item.image} alt="" />
