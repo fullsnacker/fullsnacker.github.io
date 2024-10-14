@@ -1,15 +1,16 @@
 import Project1 from '../../assets/work001.jpg';
-import Project2 from '../../assets/work003.jpg';
-import Project3 from '../../assets/work004.jpg';
-import Project4 from '../../assets/work005.jpg';
-import Project5 from '../../assets/work006.jpg';
-import Project6 from '../../assets/work007.jpg';
+import Project2 from '../../assets/work002.jpg';
+import Project3 from '../../assets/work003.jpg';
+import Project4 from '../../assets/work004.jpg';
+import Project5 from '../../assets/work005.jpg';
+import Project6 from '../../assets/work006.jpg';
+import Project7 from '../../assets/work007.png';
 
 export const projectsData = [
 	{
 		id: 1,
 		image: Project1,
-		title: 'MELI Challenge',
+		title: 'MELI FE Challenge',
 		category: 'Challenge',
 		url: 'https://github.com/fullsnacker/meli-challenge'
 	},
@@ -47,6 +48,13 @@ export const projectsData = [
 		title: 'Snodo',
 		category: 'Proyecto',
 		url: 'https://github.com/fullsnacker/snodo'
+	},
+	{
+		id: 7,
+		image: Project7,
+		title: 'MELI Fullstack Challenge',
+		category: 'Challenge',
+		url: 'https://github.com/fullsnacker/meli-fe-challenge'
 	}
 ];
 
