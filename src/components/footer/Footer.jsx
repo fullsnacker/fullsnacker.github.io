@@ -49,7 +49,7 @@ export const Footer = () => {
 						<FiLinkedin />
 					</a>
 				</div>
-				<span className="footer__copy"></span>
+				<span className="footer__copy">Copyright 2024</span>
 			</div>
 		</footer>
 	);

@@ -16,7 +16,7 @@ export const Frontend = () => {
 					<div className="skills__data">
 						<HiCheckBadge />
 						<div>
-							<h3 className="skills__name">Jest</h3>
+							<h3 className="skills__name">Typescript</h3>
 							<span className="skills__level">Intermedio</span>
 						</div>
 					</div>
@@ -39,7 +39,7 @@ export const Frontend = () => {
 					<div className="skills__data">
 						<HiCheckBadge />
 						<div>
-							<h3 className="skills__name">React</h3>
+							<h3 className="skills__name">React.js</h3>
 							<span className="skills__level">Intermedio</span>
 						</div>
 					</div>
