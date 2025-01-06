@@ -2,7 +2,7 @@
 	"name": "snolio",
 	"homepage": "https://fullsnacker.github.io",
 	"private": true,
-	"version": "0.0.2",
+	"version": "1.0.1",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
@@ -11,7 +11,7 @@
 		"lint-fix": "eslint --fix . --ext js,jsx",
 		"format": "prettier --write .",
 		"preview": "vite preview",
-		"deploy":"gh-pages -d dist"
+		"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
 		"@emailjs/browser": "^3.10.0",

@@ -1,13 +1,13 @@
 export const answers = {
 	default: <p>No entendi, podrias reformular tu mensaje?</p>,
 	intro: (
-		<p>
-			Soy Juan Manuel Garcia (A.K.A Fullsnacker), soy desarrollador FullStack.
-			Trabajo con el stack MERN hace 4 años y con js hace unos 7.
-		</p>
+		<p> Tengo 37 años, vivo en Ciudad Autonoma de Buenos Aires, Argentina. </p>
 	),
 	info: (
-		<p> Tengo 37 años, vivo en Ciudad Autonoma de Buenos Aires, Argentina.</p>
+		<p>
+			Soy Juan Manuel Garcia (A.K.A Fullsnacker), soy desarrollador FullStack.
+			Trabajo con el stack MERN hace 10 años.
+		</p>
 	),
 	contact: (
 		<p>
@@ -44,7 +44,7 @@ export const answers = {
 					</a>
 				</li>
 			</ul>
-			<br />O ingresando a mi{' '}
+			<br />O ingresando a mi
 			<a
 				className="underline"
 				href="https://fullsnacker.github.io/"
