@@ -106,6 +106,24 @@ export const Qualification = () => {
 						}
 					>
 						<div className="qualification__data">
+							<div></div>
+							<div>
+								<span className="qualification__rounder"></span>
+								<span className="qualification__line"></span>
+							</div>
+							<div>
+								<h3 className="qualification__title">
+									Desarrollador FullStack
+								</h3>
+								<span className="qualification__subtitle">Solbit</span>
+								<div className="qualification__calendar">
+									<HiOutlineCalendar className="qualification__calendar-icon" />
+									2023-Presente
+								</div>
+							</div>
+						</div>
+
+						<div className="qualification__data">
 							<div>
 								<h3 className="qualification__title">
 									Desarrollador FullStack
@@ -113,7 +131,7 @@ export const Qualification = () => {
 								<span className="qualification__subtitle">ArtdeCode</span>
 								<div className="qualification__calendar">
 									<HiOutlineCalendar className="qualification__calendar-icon" />
-									2020-Presente
+									2020-2023
 								</div>
 							</div>
 							<div>

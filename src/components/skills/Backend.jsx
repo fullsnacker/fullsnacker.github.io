@@ -16,6 +16,13 @@ export const Backend = () => {
 					<div className="skills__data">
 						<HiCheckBadge />
 						<div>
+							<h3 className="skills__name">Nest.js</h3>
+							<span className="skills__level">Basico</span>
+						</div>
+					</div>
+					<div className="skills__data">
+						<HiCheckBadge />
+						<div>
 							<h3 className="skills__name">MongoDB</h3>
 							<span className="skills__level">Intermedio</span>
 						</div>
@@ -24,7 +31,7 @@ export const Backend = () => {
 						<HiCheckBadge />
 						<div>
 							<h3 className="skills__name">MySQL</h3>
-							<span className="skills__level">Intermedio</span>
+							<span className="skills__level">Avanzado</span>
 						</div>
 					</div>
 				</div>
@@ -34,6 +41,13 @@ export const Backend = () => {
 						<div>
 							<h3 className="skills__name">Express.js</h3>
 							<span className="skills__level">Intermedio</span>
+						</div>
+					</div>
+					<div className="skills__data">
+						<HiCheckBadge />
+						<div>
+							<h3 className="skills__name">Go</h3>
+							<span className="skills__level">Basico</span>
 						</div>
 					</div>
 					<div className="skills__data">

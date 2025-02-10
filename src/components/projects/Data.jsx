@@ -5,6 +5,7 @@ import Project4 from '../../assets/work004.jpg';
 import Project5 from '../../assets/work005.jpg';
 import Project6 from '../../assets/work006.jpg';
 import Project7 from '../../assets/work007.png';
+import Project8 from '../../assets/work008.png';
 
 export const projectsData = [
 	{
@@ -55,6 +56,13 @@ export const projectsData = [
 		title: 'MELI Fullstack Challenge',
 		category: 'Challenge',
 		url: 'https://github.com/fullsnacker/meli-fe-challenge'
+	},
+	{
+		id: 8,
+		image: Project8,
+		title: 'FullStack ToDo List with React and Go',
+		category: 'Proyecto',
+		url: 'https://github.com/fullsnacker/react-go-todolist'
 	}
 ];
 
