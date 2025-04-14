@@ -2,7 +2,7 @@ import Project1 from '../../assets/work001.jpg';
 import Project2 from '../../assets/work002.jpg';
 import Project3 from '../../assets/work003.jpg';
 import Project4 from '../../assets/work004.jpg';
-import Project5 from '../../assets/work005.jpg';
+// import Project5 from '../../assets/work005.jpg';
 import Project6 from '../../assets/work006.jpg';
 import Project7 from '../../assets/work007.png';
 import Project8 from '../../assets/work008.png';
@@ -36,13 +36,13 @@ export const projectsData = [
 		category: 'Proyecto',
 		url: 'https://github.com/fullsnacker/adviency'
 	},
-	{
-		id: 5,
-		image: Project5,
-		title: 'Chatbot',
-		category: 'IA',
-		url: 'https://github.com/fullsnacker/snachat'
-	},
+	// {
+	// 	id: 5,
+	// 	image: Project5,
+	// 	title: 'Chatbot',
+	// 	category: 'IA',
+	// 	url: 'https://github.com/fullsnacker/snachat'
+	// },
 	{
 		id: 6,
 		image: Project6,
@@ -67,19 +67,9 @@ export const projectsData = [
 ];
 
 export const projectsNav = [
-	{
-		name: 'All'
-	},
-	{
-		name: 'IA'
-	},
-	{
-		name: 'Challenge'
-	},
-	{
-		name: 'BD'
-	},
-	{
-		name: 'Proyecto'
-	}
+	{ name: 'All' },
+	{ name: 'IA' },
+	{ name: 'Challenge' },
+	{ name: 'BD' },
+	{ name: 'Proyecto' }
 ];

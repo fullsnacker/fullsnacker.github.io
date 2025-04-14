@@ -30,11 +30,11 @@ function App() {
 				<Portfolio />
 				{/* <Testimonials /> */}
 				<Contact />
-				<Chat
+				{/* <Chat
 					answers={CHAT_ANSWERS}
 					examples={CHAT_EXAMPLES}
 					initialMessage={INITIAL_MESSAGE}
-				/>
+				/> */}
 			</main>
 			<Footer />
 			<ScrollUp />
