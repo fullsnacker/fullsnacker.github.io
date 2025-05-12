@@ -6,8 +6,16 @@ import Project4 from '../../assets/work004.jpg';
 import Project6 from '../../assets/work006.jpg';
 import Project7 from '../../assets/work007.png';
 import Project8 from '../../assets/work008.png';
+import Project9 from '../../assets/work009.png';
 
 export const projectsData = [
+	{
+		id: 9,
+		image: Project9,
+		title: 'Linkedin job search',
+		category: 'Proyecto',
+		url: 'https://github.com/fullsnacker/mvp-nova-front'
+	},
 	{
 		id: 1,
 		image: Project1,
