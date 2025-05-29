@@ -7,8 +7,17 @@ import Project6 from '../../assets/work006.jpg';
 import Project7 from '../../assets/work007.png';
 import Project8 from '../../assets/work008.png';
 import Project9 from '../../assets/work009.png';
+import Project10 from '../../assets/work010.png';
 
 export const projectsData = [
+
+	{
+		id: 10,
+		image: Project10,
+		title: 'CV ATS Analyzer',
+		category: 'Proyecto',
+		url: 'https://github.com/fullsnacker/my-cv-analyzer'
+	},
 	{
 		id: 9,
 		image: Project9,
@@ -71,7 +80,8 @@ export const projectsData = [
 		title: 'FullStack ToDo List with React and Go',
 		category: 'Proyecto',
 		url: 'https://github.com/fullsnacker/react-go-todolist'
-	}
+	},
+	
 ];
 
 export const projectsNav = [
