@@ -53,14 +53,15 @@ export const Frontend = () => {
 					<div className="skills__data">
 						<HiCheckBadge />
 						<div>
-							<h3 className="skills__name">Sass</h3>
-							<span className="skills__level">Basico</span>
+							<h3 className="skills__name">Next.js</h3>
+							<span className="skills__level">Intermedio</span>
+					
 						</div>
 					</div>
 					<div className="skills__data">
 						<HiCheckBadge />
 						<div>
-							<h3 className="skills__name">Next.js</h3>
+							<h3 className="skills__name">Sass</h3>
 							<span className="skills__level">Basico</span>
 						</div>
 					</div>
