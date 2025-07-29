@@ -12,9 +12,14 @@ export const About = () => {
 				<img src={AboutImg} alt="" className="about__img" />
 				<div className="about__data">
 					{/* <Info /> */}
-					<p className="about__description">
-						Me considero autodidacta, me encanta aprender y probar cosas nuevas.
-						tecnologías. Actualmente aprendiendo Next.js.
+					<p className="home__description">
+						Soy Juan Manuel García, también conocido como Fullsnacker. <br />
+						<br />
+						Tengo más de 10 años de experiencia construyendo aplicaciones
+						sólidas y escalables con el stack MERN. <br />
+						<br />
+						Vivo en Buenos Aires, Argentina y me apasiona crear tecnología que
+						haga la diferencia.
 					</p>
 					<a download="" href={Resume} className="button button--flex">
 						Descargar CV

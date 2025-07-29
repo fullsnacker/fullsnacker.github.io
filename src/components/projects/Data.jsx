@@ -23,7 +23,7 @@ export const projectsData = [
 		image: Project9,
 		title: 'Linkedin job search',
 		category: 'Proyecto',
-		url: 'https://github.com/fullsnacker/mvp-nova-front'
+		url: 'https://github.com/fullsnacker/nova-job-stream'
 	},
 	{
 		id: 1,

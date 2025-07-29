@@ -57,9 +57,8 @@ export const Data = () => {
 			</h1>
 			<h3 className="home__subtitle">Desarrollador FullStack</h3>
 			<p className="home__description">
-				Soy desarrollador creativo Full-Stack con más de 10 años de experiencia.
-				usando el stack MERN. Vivo en Buenos Aires y soy muy apasionado y
-				dedicado a mi trabajo.
+				Apasionado por crear experiencias digitales que funcionan, se ven bien y
+				resuelven problemas.
 			</p>
 			<a href="#contact" className="button button--flex">
 				Hablemos
